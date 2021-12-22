@@ -1,34 +1,73 @@
-.header-1{
-    padding-left: 10%;
+body{
+    min-height: 100%;
+    width: 100%;
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5625rem;
+    font-weight: 500;
+    letter-spacing: normal;
+    -webkit-text-size-adjust: 100%;
+    color: black;
+    overflow-x: hidden;
 }
 
-.meio-menu{
+.menu{
     
-    float: left;
-    color: white;
-    text-decoration: none;
+    border-radius: 10px;
+    position: fixed;
+    right: 10px;
+    top: 85%;
+    width: 70px;
+    height: 70px;
 }
 
-.header-2{
+.bg-image{
+    position: right;
+}
+
+.bottom{
+    font-size: 15px;
+    color:dimgray;
+    letter-spacing: 0.1px;
+}
+
+.h2, h1, h1.large, h2, h3 {
+    box-sizing: border-box;
+    font-family: "Helvetica Now Display DW",sans-serif;
+    font-weight: 800;
+    letter-spacing: -.01em;
+    color: #0f141e;
+}
+
+.h1.large, h1.large.large {
+    font-size: 3.875rem;
+    line-height: 3rem;
     padding-top: 5px;
-    padding-left: 10%;
-    float: left;
+    padding-bottom: 5px;
 }
-
-#imagem{
-
-    width: 300px;
-    
-}
-
-.title{
-    color: white;
-}
-#txtSearch{
-
-    color: white;
-    background-color: black;
-    border: none;
+.texto{
+    position: absolute;
+    text-align: left;
+    top: 100px;
+    width: 750px;
+    line-height: 30px;
     height: 30px;
-
+    padding-left: 35%;
 }
+
+.logo{
+    padding: 30px;
+}
+
+.bg-image{
+    margin-left: 10% ;
+}
+
+.logo a:hover{
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    display:inline-block;
+    opacity: 0.5;
+}
+ 
