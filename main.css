@@ -1,145 +1,16 @@
-body{
-    min-height: 100%;
-    width: 100%;
-    font-family: "Helvetica Now Display DW",sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5625rem;
-    font-weight: 500;
-    letter-spacing: normal;
-    -webkit-text-size-adjust: 100%;
-    color: black;
-    overflow-x: hidden;
-    
-}
-
-.h2, h1, h1.large, h2, h3 {
-    box-sizing: border-box;
-    font-family: "Helvetica Now Display DW",sans-serif;
-    font-weight: 800;
-    letter-spacing: -.01em;
-    color: #0f141e;
-}
-
-
-.menu{
-    border-radius: 40px;
-    position: fixed;
-    right: 15px;
-    top: 5%;
-    width: 70px;
-    height: 70px;
-}
-
-.bg-image{
-    position: right;
-}
-
-.bottom{
-    font-size: 15px;
-    color:dimgray;
-    letter-spacing: 0.1px;
-}
-
-.h1.large, h1.large.large {
-    font-size: 3.875rem;
-    line-height: 3rem;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.texto{
-    position: absolute;
-    text-align: left;
-    top: 100px;
-    width: 750px;
-    line-height: 30px;
-    height: 30px;
-    padding-left: 35%;
-}
-
-.bg-projects{
-    
-    text-align: left;
-    padding-left: 5%;
-}
-
-.logo{
-    padding: 30px;
-}
-
-.bg-image{
-    margin-left: 10%;
-}
-
-.logo a:hover{
-    -webkit-transition: opacity 0.5s ease-out;
-    -moz-transition: opacity 0.5s ease-out;
-    display:inline-block;
-    opacity: 0.5;
-}
-
-
-.item-portfolio{
-
-    display: inline-block;
-    padding-top: 2%;
-}
-
-
-#img1, #img3{
-    width: 670px;
-    height: 660px;
-}
-
-#img2, #img4{
-    margin-left: 6.7%;
-    width: 670px;
-    height: 660px;
-}
-
-.item-portfolio a:hover{
-    
-    opacity: 0.5;
-    -webkit-transition: opacity 0.5s ease-out;
-    -moz-transition: opacity 0.5s ease-out;
-}
-
-.end-page{
-    padding-left: 5%;
-}
-
-li{
-    color: gray;
-    list-style-type: none;
-}
-
-a, span{
-    color: #0f141e;
-    text-decoration: none;
-    
-}
-
-#logo-end{
-    opacity: 50%;
-    padding-top: 15%;
-}
-
-.contato, .social-media{
-    display: inline-block;
-}
-
-.social-media{
-    padding-left: 65%;
-}
-
-.logo-end-page{
-    display:flex;
-}
-
-.copyright{
-    color: gray;
-    padding-left: 2%;
+h1, h2, h3{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
 
 
+#sobretexto {
+    color: aqua;
+}
+
+.initial-conteiner{
+    position: relative;
+    background-image: url(https://cdn.discordapp.com/attachments/1143674943805063258/1143680039859265717/city_pop.gif);
+    transition: 250ms;
+}
