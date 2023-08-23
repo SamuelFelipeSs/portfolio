@@ -18,10 +18,32 @@ main{
     margin: 0;
 }
 
+<<<<<<< Updated upstream
 #sbt{
 
     padding-left: 15%;
     color: rgb(0, 255, 128);
+=======
+.conteiner{
+    background-color: aqua;
+    width: 100vw;
+    height: 10vh;
+}
+
+#nome-menu{
+    padding: 35px;
+    cursor:pointer;
+    
+}
+
+.menu{
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: -20;
+    right: 0;
+    bottom: 0;
+>>>>>>> Stashed changes
 }
 
 .apresentacao{
