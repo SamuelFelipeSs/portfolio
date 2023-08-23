@@ -1,16 +1,55 @@
 h1, h2, h3{
     color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
+main{
+    display: block;
+}
 
+.main{
+    overflow: hidden;
+}
 
-#sobretexto {
-    color: aqua;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#sbt{
+
+    padding-left: 15%;
+    color: rgb(0, 255, 128);
+}
+
+.apresentacao{
+    color: aliceblue;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.informacoes{
+    margin-bottom: 222px;
+    letter-spacing: 5px;
+    font-size: 40px;
 }
 
 .initial-conteiner{
+    background: url(https://cdn.discordapp.com/attachments/1143674943805063258/1143680039859265717/city_pop.gif);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 56px);
+    justify-content: center;
     position: relative;
-    background-image: url(https://cdn.discordapp.com/attachments/1143674943805063258/1143680039859265717/city_pop.gif);
-    transition: 250ms;
+    display: flex;
+    transition: 3s;
+
 }
