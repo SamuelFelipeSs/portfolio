@@ -189,7 +189,7 @@ main{
 }
 
 .end-page{
-    display:flex;
+    display:block;
 }
 
 .copyright{
