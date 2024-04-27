@@ -188,10 +188,6 @@ main{
     display:flex;
 }
 
-.end-page{
-    display:block;
-}
-
 .copyright{
     color: white;
     opacity: 0.2;
