@@ -30,17 +30,16 @@ body{
     color: #ffffff;
 }
 
-h3{
-    box-sizing: border-box;
-    font-family: "Helvetica Now Display DW",sans-serif;
-    font-weight: 800;
-    letter-spacing: -.01em;
-    color: #ffffff;
-}
-
 .bg-projects{
     padding-top: 5%;
     text-align: center;
+}
+
+.hr{
+    hr {
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
 }
 
 #sup{
