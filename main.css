@@ -196,7 +196,7 @@ main{
 .menu{
     position: absolute;
     margin: 0;
-    left: 0
+    left: 0;
     top: -20;
     right: 0;
     bottom: 0;
