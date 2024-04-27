@@ -66,8 +66,8 @@ body{
 }
 
 .menu{
- margin: 0;
- padding: 0;   
+    margin: 0;
+    padding: 0;   
 }
 
 .bottom{
@@ -106,7 +106,6 @@ body{
 
 
 .item-portfolio{
-    
     text-align: center;
     padding-top: 2%;
 }
@@ -131,19 +130,40 @@ body{
     opacity: 0.3;
     transition: 500ms;
 }
-
-.end-page{
-    padding-left: 5%;
+ 
+h1, h2, h3{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;  
 }
 
-li{
-    color: gray;
-    list-style-type: none;
+main{
+    display: block;
 }
 
-a, span{
-    color: #0f141e;
-    text-decoration: none;
+.main{
+    overflow: hidden;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#sbt{
+    padding-left: 15%;
+    color: rgb(0, 255, 128);
+}
+
+.conteiner{
+    background-color: aqua;
+    width: 100vw;
+    height: 10vh;
+}
+
+#nome-menu{
+    padding: 35px;
+    cursor:pointer;
     
 }
 
@@ -173,5 +193,41 @@ a, span{
     opacity: 0.2;
 }
 
+.menu{
+    position: absolute;
+    margin: 0;
+    left: 0
+    top: -20;
+    right: 0;
+    bottom: 0;
+}
 
+.apresentacao{
+    color: aliceblue;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.informacoes{
+    margin-bottom: 222px;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.initial-conteiner{
+    background: url(https://cdn.discordapp.com/attachments/1143674943805063258/1143680039859265717/city_pop.gif);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 56px);
+    justify-content: center;
+    position: relative;
+    display: flex;
+    transition: 3s;
+
+}
