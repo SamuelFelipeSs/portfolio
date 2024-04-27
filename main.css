@@ -35,12 +35,12 @@ body{
     text-align: center;
 }
 
-.hr{
-    hr {
+
+.hr {
         margin-inline-start: auto;
         margin-inline-end: auto;
-    }
 }
+
 
 #sup{
     display: inline;
