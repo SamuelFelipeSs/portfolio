@@ -109,11 +109,19 @@ body{
     opacity: 0.5;
 }
 
-
-.item-portfolio{
-    text-align: center;
-    padding-top: 2%;
+@media screen and (min-width: 992px) {
+   
+    .item-portfolio{
+        text-align: center;
+        padding-top: 2%;
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+    
 }
+
 
 
 #img{
