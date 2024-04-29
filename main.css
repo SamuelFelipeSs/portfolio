@@ -189,10 +189,6 @@ main{
     padding-left: 65%;
 }
 
-.logo-end-page{
-    display:flex;
-}
-
 .copyright{
     color: white;
     opacity: 0.2;
