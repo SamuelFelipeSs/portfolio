@@ -109,10 +109,11 @@ body{
     opacity: 0.5;
 }
 
+
+
 @media screen and (min-width: 992px) {
    
     .item-portfolio{
-        text-align: center;
         padding-top: 2%;
         max-width: 992px;
         height: auto;
